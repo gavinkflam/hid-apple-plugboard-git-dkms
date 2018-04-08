@@ -3,8 +3,8 @@
 pkgname='hid-apple-plugboard-git-dkms'
 _pkgname=hid-apple-plugboard
 
-pkgver=1.0.0.rc.1
-_pkgver=1.0.0-rc.1
+pkgver=1.0.0
+_pkgver=1.0.0
 pkgrel=1
 
 pkgdesc='GNU/Linux kernel module for customizable Apple keyboards. Change fn and other keys. (DKMS)'
