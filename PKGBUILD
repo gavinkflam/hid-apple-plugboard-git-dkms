@@ -21,7 +21,7 @@ source=("git+https://gitlab.com/gavinkflam/${_pkgname}#tag=${_pkgver}"
 
 sha256sums=('SKIP'
             '4b94f1f55febddad5ff60a8918487b883ceadd4e6c3fb280e98e4e235cd09663'
-            'f6651e1529c1f2df517cdea4967b18aa6857555076feb4bc8432f0a6676b2cfa')
+            'deecad2cdc8beb2159e679065005665fe6ac6934004ce2aa80b2938ba9540ef7')
 
 package() {
   install -dm755 ${pkgdir}/usr/src/${_pkgname}-${_pkgver}/
