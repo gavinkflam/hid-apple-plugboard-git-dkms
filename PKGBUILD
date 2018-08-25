@@ -3,19 +3,19 @@
 pkgname='hid-apple-plugboard-git-dkms'
 _pkgname=hid-apple-plugboard
 
-pkgver=1.0.0
-_pkgver=1.0.0
+pkgver=4.18.0
+_pkgver=4.18.0
 pkgrel=1
 
 pkgdesc='GNU/Linux kernel module for customizable Apple keyboards. Change fn and other keys. (DKMS)'
 arch=('any')
-url='https://github.com/gavinkflam/hid-apple-plugboard'
+url='https://gitlab.com/gavinkflam/hid-apple-plugboard'
 license=('GPL2')
 
 depends=('dkms')
 makedepends=('git')
 
-source=("git+https://github.com/gavinkflam/${_pkgname}#tag=${_pkgver}"
+source=("git+https://gitlab.com/gavinkflam/${_pkgname}#tag=${_pkgver}"
         'hid-apple-plugboard.conf'
         'config.h')
 
